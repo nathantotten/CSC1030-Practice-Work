@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: verdana, arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  text-align: justify;
+}
+
+body {
+  background-color: #272727;
+}
+
+#wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+  overflow: auto;
+  margin-top: 25px;
+  color: lightgray;
+}
+
+#nav ul {
+  list-style-type: none;
+  overflow: auto;
+}
+
+#nav li {
+  float: left;
+  margin: auto;
+  width: 50%;
+}
+
+#nav li a {
+  display: block;
+  padding: 16px;
+  margin: auto;
+  text-align: center;
+  background-color: #ff652f;
+  color: white;
+  font-size: 1.25em;
+}
+
+#nav li a:link {
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #14a76c;
+}
+
+.col1 {
+  width: 30%;
+  float: left;
+  padding: 2%;
+  border-left: #ff652f 1px solid;
+}
+
+.col2 {
+  width: 70%;
+  float: left;
+  border-left: #ff652f 1px solid;
+  border-right: #ff652f 1px solid;
+  padding: 2%;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  font-family: "Lexend Mega", sans-serif;
+  color: #ff652f;
+}
+
+.facts-list li {
+  margin-left: 2%;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
