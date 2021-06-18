@@ -11,6 +11,12 @@ function addHeading(headingText) {
     contentDiv.appendChild(heading1);
 }
 
+function addHeading2(headingText) {
+    var heading2 = document.createElement("h2");
+    heading2.innerHTML = headingText;
+    contentDiv.appendChild(heading2);
+}
+
 function addParagraph(paraText) {
     //Create the paragraph.
     var para1 = document.createElement("p");
@@ -28,6 +34,12 @@ function addListItem(parentId, itemText) {
     listNode.appendChild(nodeText);
     parentId.appendChild(listNode);
 }
+
+function addBreak() {
+    var brk = document.createElement("br");
+    contentDiv.appendChild(brk);
+}
+ 
 
 //Refresh the page contents for "About Me".
 function aboutMe() {
@@ -86,6 +98,59 @@ function employment() {
     clearDiv();
     //Alter the heading.
     addHeading("Employment History");
+
+    addHeading2("07/2021 - Present: Barista (alongside studies)");
+    addHeading2("Starbucks, Boucher Road")
+
+    var dutyList1 = document.createElement("ul");
+
+    addListItem(dutyList1, "Preparing hot and cold drinks");
+    addListItem(dutyList1, "Cash Handling");
+    addListItem(dutyList1, "Blah Blah Blah Blah vBlah Blah vBlah Blah ")
+
+    contentDiv.appendChild(dutyList1);
+
+    addBreak();
+
+    addHeading2("03/2020 - 07/2021: Focusing on Full-Time Studies");
+    addHeading2("Queen's University Belfast");
+    addBreak();
+
+    addHeading2("11/2019 - 03/2020: Customer Sales Assistant");
+    addHeading2("Tesco, Ballymena");
+
+    var dutyList2 = document.createElement("ul");
+
+    addListItem(dutyList2, "Assessed expected product demands, coordinated merchandise levels to meet goals.");
+    addListItem(dutyList2, "Evaluated customer info to explore issues, develop solutions, and maintain high quality service.");
+    addListItem(dutyList2, "Educated customers on promotions to enhance sales.");
+    addListItem(dutyList2, "Assisted call-in customers with questions and orders.");
+    addListItem(dutyList2, "Regular replenishment and rotation of display items within the department.");
+    addListItem(dutyList2, "Responding rapidly to demand in key areas of the store, such as checkouts, and making use of my training in these areas to minimise customer wait times.");
+    addListItem(dutyList2, "Being responsible for security of high-value items, both on the shop floor and in warehouse lockups, through correct use of appropriate security tags/containers and following procedures for secure storage of high-value goods.");
+    addListItem(dutyList2, "Regularly ensuring all isles are faced off and kept tidy as I go (maintaining the appearance of displays and shop floor).");
+    addListItem(dutyList2, "Being vigilant for theft and other suspected malicious behaviour in store and being up to date with the correct protocol for handling such behaviour safely.");
+
+    contentDiv.appendChild(dutyList2);
+
+    addBreak();
+
+    addHeading2("07/2019 - 07/2019: Front End Software Developer Intern");
+    addHeading2("Etain Software Ltd. Belfast");
+
+    var dutyList3 = document.createElement("ul");
+
+    addListItem(dutyList3, "Collaborated with developers to identify and alleviate several bugs and errors in example software");
+    addListItem(dutyList3, "Learned software engineering process improvements and best practices");
+    addListItem(dutyList3, "Learned how to gather and define customer requirements to develop clear specifications for creating well-organized project plans");
+    addListItem(dutyList3, "Learned how to work closely with clients st establish specifications and system designs");
+    addListItem(dutyList3, "Gained experience in rapid prototyping of UI/UX designs");
+    addListItem(dutyList3, "Colaborated with the front-end team to learn what makes an effective user interface and how to improve the user's experience with software");
+    addListItem(dutyList3, "Gained communication skills through presentations and attending daily stand-up meetings.");
+
+    contentDiv.appendChild(dutyList3);
+
+    addBreak();
 }
 
 
