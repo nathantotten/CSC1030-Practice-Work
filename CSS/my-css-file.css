@@ -2,13 +2,9 @@
 /*font-family: 'M PLUS 1p', sans-serif;*/
 
 * {
-  background-color: #3c3c3b;
-  color: white;
+  background-color: #eff6ee;
+  color: black;
   font-family: "M PLUS 1p", sans-serif;
-}
-
-.heading1 {
-  color: #7dc95e;
 }
 
 body {
@@ -21,13 +17,15 @@ body {
 .sidebar {
   height: 100vh;
 
-  background: #7dc95e;
+  background: #466174;
   font-size: 2rem;
   text-align: center;
 }
 
-.content {
-  padding: 2rem;
+.content-scrollable {
+  padding: 3rem;
+  height: 800px; /* or any value */
+  overflow-y: auto;
 }
 
 .myPhoto {
@@ -38,14 +36,14 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #466174;
   font-family: "M PLUS 1p", sans-serif;
   text-align: center;
 }
 
 a {
-  background-color: #7dc95e;
-  color: #3c3c3b;
+  background-color: #466174;
+  color: #eff6ee;
   font-size: large;
   text-decoration: none;
 }
@@ -54,5 +52,5 @@ a:hover {
 }
 
 hr {
-  border: 1px solid #3c3c3b;
+  border: 1px solid #eff6ee;
 }
