@@ -1,0 +1,36 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: slategrey;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  background-color: coral;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.reset:hover {
+  background-color: lightslategrey;
+}
+
+.decrease:hover {
+  background-color: orangered;
+}
+
+#value {
+  font-size: 15em;
+}
