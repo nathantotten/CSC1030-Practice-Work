@@ -106,7 +106,7 @@ function employment() {
 
     addListItem(dutyList1, "Preparing hot and cold drinks");
     addListItem(dutyList1, "Cash Handling");
-    addListItem(dutyList1, "Blah Blah Blah Blah vBlah Blah vBlah Blah ")
+    addListItem(dutyList1, "Other duties...")
 
     contentDiv.appendChild(dutyList1);
 
