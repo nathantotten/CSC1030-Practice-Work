@@ -9,13 +9,13 @@
 
 body {
   display: grid;
-  grid-template-columns: minmax(200px, 20%) 1fr;
+  grid-template-columns: minmax(250px, 20%) 1fr;
   padding: 0;
   margin: 0;
 }
 
 .sidebar {
-  height:100vh;
+  height:auto;
   background: #466174;
   font-size: 2rem;
   text-align: center;
